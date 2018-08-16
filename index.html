@@ -22,11 +22,11 @@
                <div id="text">
                     <div id="code">                 
 
-                    <span class="say">哎嘿嘿，我偷偷的改了一些东西。</span><br>
-                    <span class="say">不知道你什么时候会发现哎。</span><br>
+                    <span class="say">酥糖启:</span><br>
+                    <span class="say"></span><br>
                     <span class="say"></span><br>
 					<span class="say"></span><br>
-					<span class="say"><a href="diary.html" target="_blank">点这里哟</a></span><br>
+					<span class="say"></span><br>
 					<span class="say"></span><br>
 					<span class="say"></span><br>
 					<span class="say"></span><br>
@@ -44,13 +44,24 @@
                     <span class="say"><span class="space"></span> -- 旧人不覆</span>
                     </div>
                 </div>
-                <div id="clock-box">
-                    <a href="index1.html" target="_blank">@旧人不覆</a> 与 <a href="index2.html" target="_blank">@二萌</a> 在一起的
+                <!--<div id="clock-box">
+                    <a href="index1.html" target="_blank">@旧人不覆</a> 与 <a href="index2.html" target="_blank">@酥糖</a> 在一起的
                         <div id="clock"></div>
-                </div>
+                </div> -->
                 <canvas id="canvas" width="1100" height="680"></canvas>
             </div>
-            <audio src="love.mp3" autoplay="autoplay"></audio>
+            <audio id="audio" autoplay="autoplay">
+	    	<source src="LikeU.mp3" type="audio/mpeg" />
+	    </audio>
+	    <script>
+	    	window.onload = function(){
+			var audio = document.getElementById('audio');
+			audio.play();
+	  	}
+	    </script>
+	    <!-- <audio controls="controls" autoplay="autoplay">
+	    	<source src="LikeU.mp3" type="audio/mpeg" />
+	    </audio> -->
         </div>
     
     <script>
